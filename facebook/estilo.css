@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto & family= Source+Sans+Pro:wght@200;400 & display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+    background-color: #eff2f5;
+}
+.contenedor1{
+    max-width: 980px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.logo{
+    margin-top: 50px;
+    width: 280px;
+}
+.caja1{
+    width: 500px;
+    padding-right: 32px;
+}
+.caja1 p{
+    font-size: 28px;
+}
+.caja2{
+    width: 400px;
+}
+form{
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgb(0 0 0 /10%),0 8px 16px rgb(0 0 0 / 10%) ;
+    border-radius: 12px;
+    text-align: center;
+}
+input{
+    display: block;
+    width: 100%;
+    padding: 16px;
+    margin: 6px 0;
+    border: 1px solid #dddfe2;
+    border-radius: 12px;
+}
+.iniciar{
+    display: block;
+    width: 100%;
+    background-color: #1877f2;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    padding: 15px;
+    text-decoration: none;
+    color: #fff;
+    margin: 18px 0;
+}
+.olvidar{
+    text-decoration: none;
+    color: #1877f2;
+}
+hr{
+    margin: 18px 0;
+    border: 1px solid #ddd;
+}
+.nueva{
+    display: block;
+    width: 205px;
+    margin: auto;
+    background-color: #42b72a;
+    padding: 16px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.caja2 p{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 27px;
+}
+@media (max-width: 900px) {
+    .contenedor1{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .caja1{
+        margin: auto;
+        text-align: center;
+        width: 400px;
+        padding-right: 0;
+    }
+    .caja1 p{
+        font-size: 28px;
+    }
+    .caj2{
+        margin: auto;
+    }
+    form{
+        margin-top: 50px;
+    }
+}
+.idiomas{
+    display: flex;
+    flex-wrap: wrap;
+    width: 950px;
+    justify-content: center;
+    align-items: center;
+}
+.idiomas div{
+    font-size: 11px;
+    padding: 10px 8px 0;
+    color: rgb(142, 142, 142);
+}
+footer{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 70px;
+}

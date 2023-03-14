@@ -1,0 +1,31 @@
+.contenedor{
+background: #75fd06;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: 50px 50px 50px;
+width: 100%;
+gap: 10px;
+justify-items: center
+}
+.d1{
+    background: #9403fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+.d2{
+    background: #04d1fa;
+}
+.d3{
+    background: #f90032;
+}
+.d4{
+    background: #fcc603;
+}
+.d5{
+    background: #b802fa;
+}
+.d6{
+    background: #524d8f;
+}
