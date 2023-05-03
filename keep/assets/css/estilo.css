@@ -1,0 +1,11 @@
+*{
+
+}
+@font-face{
+    font-family: "mis-fuentes";
+    src: url(/keep/assets/fonts/Milkipa.ttf);
+
+}
+.misfuentes{
+    font-family:"mis-fuentes" ;
+}
